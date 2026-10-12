@@ -4,6 +4,20 @@
 
 [English](README.md) | **中文**
 
+## 作者
+
+**Shuibing He · Nan Zhang · Ping Chen · Weixu Zong · Yi Zhang · Siling Yang**
+
+浙江大学智能存储与计算系统实验室（ISCS Laboratory）
+
+## 致谢
+
+感谢本综述全体作者在论文撰写、资料整理与研究讨论中的贡献与支持。
+
+同时，感谢本综述所引用论文的作者及相关研究团队在 DNN 训练与 GPU 显存优化领域所做出的重要贡献，这些研究工作为本综述的系统梳理与总结奠定了基础。
+
+感谢所有关注、使用和参与完善本项目的读者与贡献者。如发现论文遗漏、分类不准确或其他问题，欢迎通过 Issue 或邮件与我们联系。
+
 ![DNN 训练 GPU 显存优化技术总览](assets/gpu-memory-optimization-taxonomy.png)
 
 ## 项目简介
@@ -108,11 +122,3 @@ GPU 显存已成为现代深度神经网络（DNN）训练中的关键资源瓶�
 本项目由浙江大学智能存储与计算系统实验室（ISCS Laboratory）维护。
 
 联系邮箱：zjuchenping@zju.edu.cn
-
-## 致谢
-
-感谢本综述的共同作者 Shuibing He、Nan Zhang、Ping Chen、Weixu Zong、Yi Zhang 和 Siling Yang 在论文撰写、资料整理与研究讨论中的贡献与支持。
-
-同时，感谢本综述所引用论文的作者及相关研究团队在 DNN 训练与 GPU 显存优化领域所做出的重要贡献，这些研究工作为本综述的系统梳理与总结奠定了基础。
-
-感谢所有关注、使用和参与完善本项目的读者与贡献者。如发现论文遗漏、分类不准确或其他问题，欢迎通过 Issue 或邮件与我们联系。

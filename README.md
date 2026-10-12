@@ -4,6 +4,20 @@
 
 **English** | [中文](README_zh-CN.md)
 
+## Authors
+
+**Shuibing He · Nan Zhang · Ping Chen · Weixu Zong · Yi Zhang · Siling Yang**
+
+Intelligent Storage and Computing Systems (ISCS) Laboratory, Zhejiang University
+
+## Acknowledgements
+
+We thank all authors of this survey for their contributions to writing the paper, curating the literature, and participating in research discussions.
+
+We also thank the authors and research teams whose papers are cited in this survey for their important contributions to DNN training and GPU memory optimization. Their work forms the foundation of the systematic review and synthesis presented here.
+
+Finally, we thank all readers and contributors who follow, use, and help improve this project. If you notice a missing paper, an inaccurate classification, or any other issue, please contact us by email or open a GitHub issue.
+
 ![Overview of GPU memory optimization techniques for DNN training](assets/gpu-memory-optimization-taxonomy.png)
 
 ## Overview
@@ -108,11 +122,3 @@ Repository-authored content is provided under the license in [`LICENSE`](LICENSE
 This project is maintained by the Intelligent Storage and Computing Systems (ISCS) Laboratory at Zhejiang University.
 
 Email: zjuchenping@zju.edu.cn
-
-## Acknowledgements
-
-We thank the co-authors of this survey—Shuibing He, Nan Zhang, Ping Chen, Weixu Zong, Yi Zhang, and Siling Yang—for their contributions and support in writing the paper, curating the literature, and participating in research discussions.
-
-We also thank the authors and research teams whose papers are cited in this survey for their important contributions to DNN training and GPU memory optimization. Their work forms the foundation of the systematic review and synthesis presented here.
-
-Finally, we thank all readers and contributors who follow, use, and help improve this project. If you notice a missing paper, an inaccurate classification, or any other issue, please contact us by email or open a GitHub issue.
