@@ -43,7 +43,7 @@ GPU 显存已成为现代深度神经网络（DNN）训练中的关键资源瓶�
 - **联合内存优化（§4.1.3）**：将换入换出与重计算、压缩、分配或调度结合。
 - **数据路径优化（§4.1.4）**：优化 GPU、主存与存储设备之间的数据层级和传输路径。
 
-该类别现收录 [19 份论文文件](papers/Data-Offloading/)。
+该类别现收录 [20 份论文文件](papers/Data-Offloading/)。
 
 ### 2. 激活重计算优化（§5）
 
@@ -76,7 +76,7 @@ GPU 显存已成为现代深度神经网络（DNN）训练中的关键资源瓶�
 - **长生命周期激活显存最小化（§7.2）**：通过调度和集成式显存优化缩短激活生命周期。
 - **跨设备显存负载均衡（§7.3）**：通过负载重分配、结合其他显存优化、算法设计或显存感知并行编排改善设备间不均衡。
 
-该类别现收录 [35 份论文文件](papers/Distributed-Memory-Optimization/)。
+该类别现收录 [38 份论文文件](papers/Distributed-Memory-Optimization/)。
 
 ### 5. 其他优化（§8）
 
@@ -94,14 +94,14 @@ GPU 显存已成为现代深度神经网络（DNN）训练中的关键资源瓶�
 
 ## 论文集合概览
 
-仓库目前共包含 **126 份 PDF 文件**。部分工作同时使用多种显存优化机制，因此会被交叉收录。
+仓库目前共包含 **130 份 PDF 文件**。部分工作同时使用多种显存优化机制，因此会被交叉收录。
 
 | 分类 | 时间范围 | 文件数 | 目录 |
 | --- | ---: | ---: | --- |
-| 数据卸载 | 2016-2025 | 19 | [`papers/Data-Offloading`](papers/Data-Offloading/) |
+| 数据卸载 | 2016-2025 | 20 | [`papers/Data-Offloading`](papers/Data-Offloading/) |
 | 激活重计算 | 2016-2026 | 20 | [`papers/Activation-Recomputation`](papers/Activation-Recomputation/) |
 | 数据压缩 | 2018-2026 | 31 | [`papers/Data-Compression`](papers/Data-Compression/) |
-| 分布式显存优化 | 2017-2025 | 35 | [`papers/Distributed-Memory-Optimization`](papers/Distributed-Memory-Optimization/) |
+| 分布式显存优化 | 2017-2025 | 38 | [`papers/Distributed-Memory-Optimization`](papers/Distributed-Memory-Optimization/) |
 | 其他优化 | 2017-2026 | 21 | [`papers/Other-Optimizations`](papers/Other-Optimizations/) |
 
 

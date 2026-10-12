@@ -43,7 +43,7 @@ Data offloading expands effective GPU memory capacity by moving tensors among st
 - **Joint Memory Optimizations (§4.1.3):** combine swapping with recomputation, compression, memory allocation, or scheduling.
 - **Data Path Optimization (§4.1.4):** optimize the memory hierarchy and transfer paths among GPU memory, host memory, and storage devices.
 
-This category currently contains [19 paper files](papers/Data-Offloading/).
+This category currently contains [20 paper files](papers/Data-Offloading/).
 
 ### 2. Activation Recomputation Optimization (§5)
 
@@ -77,7 +77,7 @@ Distributed training provides an important way to overcome the memory capacity o
 - **Prolonged Activation Memory Minimization (§7.2):** shorten activation lifetimes through scheduling and integrated memory optimizations.
 - **Memory Load Balance Across Devices (§7.3):** address imbalance through load redistribution, integration with other memory optimizations, algorithmic design, or memory-aware parallel orchestration.
 
-This category currently contains [35 paper files](papers/Distributed-Memory-Optimization/).
+This category currently contains [38 paper files](papers/Distributed-Memory-Optimization/).
 
 ### 5. Other Optimizations (§8)
 
@@ -95,14 +95,14 @@ This category currently contains [21 paper files](papers/Other-Optimizations/).
 
 ## Paper Collection Overview
 
-The repository currently contains **126 PDF files**. Some works combine multiple memory optimization mechanisms and are therefore included in more than one category.
+The repository currently contains **130 PDF files**. Some works combine multiple memory optimization mechanisms and are therefore included in more than one category.
 
 | Category | Coverage | Files | Directory |
 | --- | ---: | ---: | --- |
-| Data Offloading | 2016-2025 | 19 | [`papers/Data-Offloading`](papers/Data-Offloading/) |
+| Data Offloading | 2016-2025 | 20 | [`papers/Data-Offloading`](papers/Data-Offloading/) |
 | Activation Recomputation | 2016-2026 | 20 | [`papers/Activation-Recomputation`](papers/Activation-Recomputation/) |
 | Data Compression | 2018-2026 | 31 | [`papers/Data-Compression`](papers/Data-Compression/) |
-| Distributed Memory Optimization | 2017-2025 | 35 | [`papers/Distributed-Memory-Optimization`](papers/Distributed-Memory-Optimization/) |
+| Distributed Memory Optimization | 2017-2025 | 38 | [`papers/Distributed-Memory-Optimization`](papers/Distributed-Memory-Optimization/) |
 | Other Optimizations | 2017-2026 | 21 | [`papers/Other-Optimizations`](papers/Other-Optimizations/) |
 
 ## Contributing
